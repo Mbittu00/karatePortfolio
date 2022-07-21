@@ -1,0 +1,39 @@
+.logo{
+  width: 150px;
+  margin-top: -10px;
+}.head{
+ display: flex;
+}.head>.menu{
+  position: fixed;
+  top: 10px;
+  right: 10px;
+}
+.menu-list{
+  display: flex;
+}.menu-list>span:hover{
+  color: var(--orange);
+}
+@media screen and (max-width: 768px){
+  .menu-list{
+    position: fixed;
+    top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    right: 10px;
+    background: var(--appColor);
+    padding: 20px 30px;
+    align-items: center;
+    justify-content: center;
+    color: var(--lightgray);
+    z-index: 99;
+  }.close{
+    position: absolute;
+    z-index: 100;
+    top: 8px;
+    right: 10px;
+  }
+}a{
+  text-decoration: none;
+  color: white;
+}

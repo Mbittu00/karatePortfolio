@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@200&display=swap');
+.hero>.s-holder {
+  text-transform: uppercase;
+  background: var(--appColor);
+  padding: 0.8rem 1rem;
+  align-self: center;
+  border-radius: 29px;
+  z-index: 1;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  color: white;
+  font-size: 11px;
+}
+
+.slider {
+  width: 80px;
+  height: 33px;
+  margin-top: -10px;
+  z-index: -1;
+  background: var(--orange);
+  border-radius: 50px;
+  position: absolute;
+}
+
+.moti>div {
+  display: flex;
+  gap: 15px;
+}
+
+.moti>div>span {
+  text-transform: uppercase;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.moti {
+  align-self: center;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}.cont{
+  align-self: center;
+  text-align: center;
+  margin-top: 11px;
+}.cont>span{
+  font-family: 'M PLUS 1 Code', sans-serif;
+  
+}.count{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}.count>div{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}.count>div>span:nth-child(2){
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: var(--gray);
+}.count>div>span:nth-child(1){
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: bold;
+}.btn{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}.btn>button{
+  padding: 0.5rem 1rem;
+}.btn>button:nth-child(1){
+  background: var(--orange);
+  border: 2px solid var(--orange);
+  color: white;
+}.btn>button:nth-child(2){
+  background: transparent;
+  border: 2px solid var(--orange);
+  color: var(--orange);
+}
