@@ -1,5 +1,6 @@
 import "./head.css";
 import logo from "../../img/20220702_223447_0000.png";
+import logo2 from "../../img/logo3.png";
 import { useState } from "react";
 import { HiMenuAlt1 } from "react-icons/hi";
 import { AiOutlineClose } from "react-icons/ai";
@@ -13,7 +14,10 @@ function Head() {
   });
   return (
     <div className="head" id='home'>
-      <img src={logo} className="logo" alt="logo" />
+    <div className='logo-h'>
+      <img src={logo2} className="logo" alt="logo" />
+      <img src={logo} className="logo2" alt="logo2" />
+      </div>
       {menuOpened == false &&mobile == true ? (
         <HiMenuAlt1
           color="#d8d5d5"

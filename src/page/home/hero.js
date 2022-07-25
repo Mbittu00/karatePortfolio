@@ -16,16 +16,21 @@ function Hero() {
   </div>
   <div className='moti'>
   <div>
-  <span className='stroke-text'>make</span>
-  <span>your</span>
+  <span className='stroke-text'>Bring</span>
+  <span>out</span>
   </div>
   <div>
-  <span>ideal</span>
-  <span className='stroke-text'>fight</span>
+  <span>the</span>
+  <span className='stroke-text'>fighter</span>
+  </div> 
+  <div>
+  <span className='stroke-text'>in</span>
+  <span>you</span>
   </div>
   </div>
   <div className='cont'>
-<span>In here we will help you to shape<br/> and build your ideal body and live up<br/> your life to fullest</span>
+<span>A black belt is a white belt who never <br/>gives up
+A black belt is much powerful than your leather one</span>
   </div>
   
   <div className='count'>
@@ -36,7 +41,7 @@ function Hero() {
 
   <div>
   <span>+ 5</span>
-  <span>members<br/>joind</span>
+  <span>achivement<br/>gotted</span>
   </div>
   
   <div>

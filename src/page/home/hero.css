@@ -29,12 +29,14 @@
 .moti>div {
   display: flex;
   gap: 15px;
+  align-self: center;
 }
 
 .moti>div>span {
   text-transform: uppercase;
   font-size: xx-large;
   font-weight: bold;
+  
 }
 
 .moti {
