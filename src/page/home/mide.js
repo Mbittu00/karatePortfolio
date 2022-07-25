@@ -1,11 +1,12 @@
 import "./mide.css";
 import { BiDumbbell, BiRupee } from "react-icons/bi";
-import { BsStars} from "react-icons/bs";
-import { AiTwotoneStar} from "react-icons/ai";
-import { FiArrowRight, FiArrowLeft} from "react-icons/fi";
+import { BsStars } from "react-icons/bs";
+import { AiTwotoneStar } from "react-icons/ai";
+import { FiArrowRight, FiArrowLeft } from "react-icons/fi";
 import { RiVipCrownFill, RiHeartAddLine } from "react-icons/ri";
 import tick from "../../img/tick.png";
 import whitetick from "../../img/whiteTick.png";
+import traner from "../../img/IMG_20220605_121840.jpg";
 function Mide() {
   return (
     <div className="mide">
@@ -14,6 +15,7 @@ function Mide() {
         <span>PROGRAMS</span>
         <span className="stroke-text">TO SHAPE YOU</span>
       </div>
+
       {/*card's*/}
       <div className="card">
         <div>
@@ -66,7 +68,7 @@ function Mide() {
         </div>
       </div>
       {/*grid photo*/}
-
+      <div className="blur pm-blur"></div>
       <div className="us" id="whyUs">
         <span>some reasons</span>
         <div>
@@ -145,7 +147,7 @@ function Mide() {
             <button>join now</button>
           </div>
         </div>
-{/*seilver plan*/}
+        {/*seilver plan*/}
         <div className="card-holder2 ch">
           <div>
             <AiTwotoneStar size="30px" color="silver" className="p-i" />
@@ -177,7 +179,7 @@ function Mide() {
             <button>join now</button>
           </div>
         </div>
-{/*gold Plan*/}
+        {/*gold Plan*/}
         <div className="card-holder3 ch">
           <div>
             <BsStars size="30px" color="gold" className="p-i" />
@@ -205,7 +207,7 @@ function Mide() {
             <button>join now</button>
           </div>
         </div>
-{/*platinum Plan*/}
+        {/*platinum Plan*/}
         <div className="card-holder4 ch">
           <div>
             <RiVipCrownFill size="30px" color="#ababab" className="p-i" />
@@ -242,19 +244,15 @@ function Mide() {
       <div className="about" id="aboutUs">
         <span>about us</span>
         <span>
-          I made the right choice by choosing the Fitclub and by choosing the
-          right plan and program I already achieved my ideal body!
+          I made the right choice by choosing the Notorious academy and by choosing the right plan and program I already achieved my teacher journey!
         </span>
-        <span>MATHEW HENDRICKSON -</span>
-        <span>ENTREPRENEUR</span>
-        <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmKuhAAbw4jth2eLsuE0n5aOzJD9P-kLj3Lw&usqp=CAU"
-          className="sensai"
-        />
-        <div className="arrow">
+        <span>Alok Kumar mandal -</span>
+        <span>Sempai</span>
+        <img src={traner} className="sensai" />
+        {/*   <div className="arrow">
           <FiArrowLeft size="35px" color="white" />
           <FiArrowRight size="35px" color="white" />
-        </div>
+        </div>*/}
       </div>
     </div>
   );

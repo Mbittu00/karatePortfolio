@@ -16,8 +16,8 @@
   display: flex;
   flex-direction: column;
   background: var(--gray);
-  width: 90vw;
-  padding: 40px 40px;
+  width: 75vw;
+  padding: 40px 35px;
   margin-bottom: 20px;
 }.card{
   display: flex;
@@ -194,4 +194,9 @@ margin-left: -10px;
 }.arrow{
   margin-top: 10px;
   display: flex;
+}.pm-blur{
+  width: 350px;
+  height: 450px;
+  background: var(--orange);
+  filter: blur(180px);
 }
